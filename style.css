@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter";
+}
+
+#divisao1, #divisao2, #divisao3, #divisao4{
+    width: 1440px;
+}
+
+#divisao1 {
+    
+    color: #FFFFFF;
+    background: #303030;
+}
+
+    #logoDNC {
+        margin-left: 40%;
+        width: 60px;
+       
+    }
+
+    #titleDivisao1 {
+        margin-top: 52px;
+        margin-left: 70px;
+        font-size: 50px;
+    }
+
+    #textDivisao1 {
+        margin-top: 30px;
+        margin-left: 62px;
+        padding-bottom: 100px;
+    }
+    
+#divisao2 {
+    
+    display: flex;
+    align-items: center;
+    background: #F9F9F9;
+ }
+
+    #divisao2 h2 {
+        font-weight: 300;
+    }
+
+    .requisitoDivisao2 {
+        margin: 50px 50px 50px 100px;
+    }
+
+#divisao3 {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+    #historiDivisao3 {        
+        margin: 50px 60px 60px 60px;
+    }
+    
+    #titleDivisao3 {
+        font-size: 30px;
+        margin-bottom: 60px;
+        line-height: 25px;
+    }
+
+    #textDivisao3 {
+        line-height: 25px;
+        font-weight: 300;
+    }
+
+    #imageDivisao3 {
+        margin: 60px;
+    }
+
+#divisao4 {
+    text-align: center;
+    background: #303030;
+}
+
+    #textDivisao4 {
+        color: #FFFFFF;
+        font-size: 35px;
+    }
+
+    .formularioDivisao4 {
+        width: 508px;
+        height: 72px;
+        margin: 30px;
+        border: 0;
+        border-radius: 10px;
+        padding-left: 30px;
+        font-size: 25px;
+    }    
+
+    #botaoDivisao4 {
+        color: #FFFFFF;
+        background: #C07212;
+        border: 0;
+        width: 286px;
+        height: 74px;
+        border-radius: 10px;
+        font-weight: bolder;
+        margin: 50px 0px 30px 0px;
+        font-size: 25px;
+    }
+
+    #botaoDivisao4:hover {
+        background: #e79128;
+        transform: translateY(-5px);
+        box-shadow: 0px 15px 20px #a58459;
+        transition-duration: 0.5s;
+    }
